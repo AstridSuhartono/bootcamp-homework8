@@ -1,14 +1,30 @@
-.map-container{
+    .root{
+        border-radius: 50px;
+        background: #0e3592;
+        box-shadow:  15px 15px 28px #09225f, 
+             -15px -15px 28px #1348c5;
+    }
+    
+    #mainBackground{
+        background-image: url("background.jpg");
+        background-repeat: repeat; 
+        background-size: cover; 
+        background-position: center;
+    }
+    .map-container{
+    width: auto;
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
-    height:0;
+    height:380px;
     }
-    
-.map-container iframe{
+
+    .map-container iframe{
     left:0;
     top:0;
     height:100%;
     width:100%;
     position:absolute;
     }
+
+
