@@ -1,11 +1,4 @@
-    .root{
-        border-radius: 50px;
-        background: #0e3592;
-        box-shadow:  15px 15px 28px #09225f, 
-             -15px -15px 28px #1348c5;
-    }
-
-    body{
+     body{
         font-family: 'Fira Sans', sans-serif;
         background-color: midnightblue;        
     }
