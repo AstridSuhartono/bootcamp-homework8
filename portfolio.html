@@ -7,20 +7,23 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>MyWebsite</title>
   </head>
 
-  <body class="container" style="background-color:rgb(235, 235, 235)">
+  <body class="container">
     <header class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">Astrid Suhartono</a>
+        <a class="navbar-brand" href="profile.html">Astrid Suhartono</a>
+        <a class="nav-item nav-link" href="https://github.com/AstridSuhartono/"><i class="fab fa-github"></i> Github</a>
+        <a class="nav-item nav-link" href="https://www.linkedin.com/in/astridsuhartono/"><i class="fab fa-linkedin-in"></i> Linkedin</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-md-auto">
-            <a class="nav-item nav-link" href="index.html">About me</a>
+            <a class="nav-item nav-link" href="profile.html">About me</a>
             <a class="nav-item nav-link active" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="contact.html">Contact</a>
         </div>
@@ -28,7 +31,7 @@
     </header>
 
     <div class="container" id="mainBackground">
-      <div class="display-3 ml-5 text-white">Portfolio</div>
+      <div class="display-3 ml-3 text-white">Portfolio</div>
       <div class="row row-cols-1 row-cols-md-3 pt-3">
         <div class="col mb-4">
           <!-- Card -->
@@ -50,11 +53,11 @@
               <h4 class="card-title">QIG Project</h4>
               <!--Text-->
               <p class="card-text">This project is a team project where me and my teammates create a website that utilise third party API's. The QIG (Quarantine & Isolation Guide)
-                website shows some information that people in Australia will need during the COVID-19 pandemic.
+                website shows information that people especially in Australia might need during the COVID-19 pandemic.
               </p>
               <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-              <button type="button" class="btn btn-light-blue btn-md">Github Link</button>
-              <button type="button" class="btn btn-light-blue btn-md">Deployed Link</button>
+              <a href="https://github.com/amarr001/Project-1" type="button" class="btn btn-light-blue btn-md">Github Link</a>
+              <a href="https://amarr001.github.io/Project-1/" type="button" class="btn btn-light-blue btn-md">Deployed Link</a>
       
             </div>
       
@@ -78,12 +81,14 @@
             <div class="card-body">
       
               <!--Title-->
-              <h4 class="card-title">Project 2</h4>
+              <h4 class="card-title">Weather Dashboard</h4>
               <!--Text-->
-              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora quibusdam aliquid nam architecto illum, vero praesentium nemo accusantium explicabo magni laboriosam eius at possimus assumenda. Culpa veritatis quidem suscipit dignissimos.</p>
+              <p class="card-text">The function of weather dashboard app is to show the current day weather condition and the next 4 days based on a city.
+                User will be able to search based on city name and it will be saved in a list of cities that historically been called by the user.
+              </p>
               <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-              <button type="button" class="btn btn-light-blue btn-md">Github Link</button>
-              <button type="button" class="btn btn-light-blue btn-md">Deployed Link</button>
+              <a href="https://github.com/AstridSuhartono/bootcamp-homework6/" type="button" class="btn btn-light-blue btn-md">Github Link</a>
+              <a href="https://astridsuhartono.github.io/bootcamp-homework6/" type="button" class="btn btn-light-blue btn-md">Deployed Link</a>
             </div>
       
           </div>
@@ -106,12 +111,13 @@
             <div class="card-body">
       
               <!--Title-->
-              <h4 class="card-title">Project 3</h4>
+              <h4 class="card-title">Code Quiz Project</h4>
               <!--Text-->
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, inventore error voluptates tempora quaerat commodi ullam id incidunt vero reiciendis eos quia fugit consectetur ad pariatur placeat non modi autem.</p>
+              <p class="card-text">A simple web application to let web developers do a coding assessment on simple JavaScript questions. 
+                The application will test the web developer in a form of multiple choice questions and wil track the high scores</p>
               <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-              <button type="button" class="btn btn-light-blue btn-md">Github Link</button>
-              <button type="button" class="btn btn-light-blue btn-md">Deployed Link</button>
+              <a href="https://github.com/AstridSuhartono/bootcamp-homework4/" type="button" class="btn btn-light-blue btn-md">Github Link</a>
+              <a href="https://astridsuhartono.github.io/bootcamp-homework4/" type="button" class="btn btn-light-blue btn-md">Deployed Link</a>
             </div>
       
           </div>
@@ -134,12 +140,12 @@
             <div class="card-body">
       
               <!--Title-->
-              <h4 class="card-title">Project 4</h4>
+              <h4 class="card-title">Day Planner</h4>
               <!--Text-->
-              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit quo reprehenderit, dolore ad debitis nisi saepe delectus, iste nulla alias tenetur corrupti unde laborum explicabo adipisci sit, repellendus praesentium? Temporibus?</p>
+              <p class="card-text">A simple web calendar application that allows the user to save events for each hour of the standard business hours. Moment.js library, which is a 3rd party API is utilised to work with date and time.</p>
               <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-              <button type="button" class="btn btn-light-blue btn-md">Github Link</button>
-              <button type="button" class="btn btn-light-blue btn-md">Deployed Link</button>
+              <a href="https://github.com/AstridSuhartono/bootcamp-homework5/" type="button" class="btn btn-light-blue btn-md">Github Link</a>
+              <a href="https://astridsuhartono.github.io/bootcamp-homework5/" type="button" class="btn btn-light-blue btn-md">Deployed Link</a>
             </div>
       
           </div>
@@ -151,7 +157,7 @@
 
     <footer class=" page-footer text-muted text-center fixed-bottom position-sticky">
       <div class="container text-white bg-dark">
-        <p>© 2020 Copyright by <a class="text-white" href="index.html">Astrid Suhartono</a></br>
+        <p>© 2020 Copyright by <a class="text-white" href="profile.html">Astrid Suhartono</a></br>
           <a href="http://www.freepik.com">Background designed by pikisuperstar / Freepik</a>
       </div>
     </footer>
