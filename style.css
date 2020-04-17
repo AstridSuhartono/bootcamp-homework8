@@ -3,7 +3,42 @@
         background-color: midnightblue;
         color: white;        
     }
-    
+
+    .splash{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: midnightblue;
+        z-index: 2000;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .splash.display-none{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: midnightblue;
+        z-index: -1000;
+        color: whitesmoke;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    @keyframes fadeIn{
+        to{
+            opacity: 1;
+        }
+    }
+
+    .fade-in{
+        opacity: 0;
+        animation: fadeIn 1s ease-in forwards;
+    }
+
     #mainBackground{
         background-image: url("/images/background.jpg");
         background-repeat: repeat; 
